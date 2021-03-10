@@ -38,12 +38,12 @@
 
 .container-1D34oG {
 	/*background-color: #0c0c0c !important;*/
-	background-image: url('var(--background-image-url)') !important;
+	background-image: url(var(--background-image-url)) !important;
 	object-fit: cover;
 }
 
 .base-3dtUhz{
-	background-image: url('var(--background-image-url)') !important;
+	background-image: url(var(--background-image-url)) !important;
 	/**background-image: url('https://i.imgur.com/EhTg7Us.png') !important;**/
 	/* background-image: url('https://i.imgur.com/ISc93NO.jpg') !important; */
 	background-size: cover;
