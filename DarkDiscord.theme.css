@@ -1,1 +1,19 @@
+/**
 
+ * @name Dark Discord
+ * @version 1.3
+ * @description An actual dark mode with custom images and other stuff, your eyes thank you.
+ * @author Xandon
+
+**/
+
+@import url('https://raw.githack.com/0Xandon0/DarkDiscord/main/DarkDiscordImport.css');
+
+.theme-dark,
+.theme-light,
+:root {
+   --background-image:url('https://i.imgur.com/1DBt4b2.jpg');
+   --sidebar-image-blur: 7px !important;
+   --shadow-color:#0d0d0d !important;
+   --highlight-color: #0896a8 !important;
+}
