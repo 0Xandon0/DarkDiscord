@@ -1,0 +1,219 @@
+.container-1D34oG {
+	/*background-color: #0c0c0c !important;*/
+	background-image: url('https://i.imgur.com/EhTg7Us.png') !important;
+	object-fit: cover;
+}
+
+.base-3dtUhz{
+	background-image: url('https://i.imgur.com/1DBt4b2.jpg') !important;
+	/**background-image: url('https://i.imgur.com/EhTg7Us.png') !important;**/
+	/* background-image: url('https://i.imgur.com/ISc93NO.jpg') !important; */
+	background-size: cover;
+}
+
+.chat-3bRxxu{
+	background-color: transparent;
+	filter: drop-shadow(7px 15px 1px var(--shadow-color));
+}
+/* settings menu stuff */
+.standardSidebarView-3F1I7i.da-standardSidebarView{
+ background-color:transparent;	
+}
+.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2{
+	background-color:transparent;
+}
+.sidebarRegion-VFTUkN{
+	backdrop-filter:blur(var(--sidebar-image-blur));
+}
+.contentRegion-3nDuYy{
+	background-color:transparent;
+}
+.contentRegionScroller-26nc1e{
+	background-color:transparent;
+}
+.layer-3QrUeG{
+	background-image: url('https://i.imgur.com/1DBt4b2.jpg') !important;
+}
+
+
+/*date thingy*/
+.content-1o0f9g{
+	background-color:black;
+	border-radius: 4px;
+	border-color:var(--highlight-color);
+	border-width:1px;
+	border-style:solid;
+	color:var(--highlight-color);
+}
+
+/*jump to present*/
+.jumpToPresentBar-G1R9s6.barBase-1c2Rfb{
+	background-color: rgba(20,20,20,1);
+}
+
+.jumpToPresentBar-G1R9s6.barBase-1c2Rfb button{
+	background-color: rgba(20,20,20,1);
+	color:var(--highlight-color);
+}
+
+/*server name:*/
+.container-1taM1r{
+	background-color:#202020;
+}
+.searchBar-6Kv8R2{
+	background-color:#202020;
+}
+
+
+.iconVisibility-sTNpHs{
+	background-color: transparent;
+}
+
+/* channel list color */
+.sidebar-2K8pFh{
+	background-color:transparent;
+	
+}
+.containerDefault-3tr_sE{
+	
+}
+
+.privateChannels-1nO12o{
+	background-color:transparent;
+}
+.scroller-1JbKMe{
+	background-color:transparent;
+}
+
+.sidebar-2K8pFh{
+	background-color: transparent;
+}
+.content-98HsJk{
+	background-color:transparent;
+}
+.scroller-1JbKMe{
+	background-color: rgba(255,255,255,0);
+	backdrop-filter: blur(var(--sidebar-image-blur));
+	/*filter: drop-shadow(30px 10px 4px var(--shadow-color));*/
+}
+.container-3w7J-x{
+	background-color: rgba(255,255,255,0);
+	backdrop-filter: blur(var(--sidebar-image-blur));
+	/*filter: drop-shadow(30px 10px 4px var(--shadow-color));*/
+}
+
+
+
+.content-3YMskv{
+	background-color: transparent;
+}
+
+.scroller-RmtA4e{
+	background-color: transparent;
+}
+
+.container-1CE3eW{
+	background-color: #141414;
+	outline-color: var(--highlight-color);
+	outline-width: 2px;
+}
+.flex-1xMQg5.flex-1O1GKY{
+	background-color: #1c1c1c;
+	outline-color: var(--highlight-color);
+	outline-width: 2px;
+}
+
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD{
+  width: auto;
+  height: 23px;
+  padding: 1 1 0 4px;
+  font-size: 0.927em;
+  }
+ .wordmark-2iDDfm.wordmarkWindows-1v0lYD:before, .wordmark-2iDDfm.wordmarkWindows-1v0lYD:after{
+    position: relative;
+    width: auto;
+    height: 22px; 
+}
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD:before{
+    content: "Dark";
+    font-weight: 900;
+	color: #242424;
+}
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD:after{
+    content: "Discord";
+	font-weight: 200;
+	color: var(--highlight-color);
+}
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD svg{
+    display: none;
+}
+
+.scrollableContainer-2NUZem{
+	background-color: #1a1a1a;
+}
+
+
+/** DISCORD HOME BUTTON**/
+.wrapper-1BJsBx{
+	background-color: #111111;
+}
+
+.childWrapper-anI2G9{
+	display:none;
+}
+.childWrapper-anI2G9 svg{
+	display: none;
+}
+
+
+.message-2qnXI6:hover{
+	transition-duration: 0.3s;
+	transition-property:backdrop-filter, outline-width;
+	/*backdrop-filter:blur(20px);
+	border-radius:30px;*/
+	outline-width:3px;
+	outline-color:var(--highlight-color);
+	outline-style:solid;
+}
+/* was shadow for typing thing
+.form-2fGMdU{
+	filter:drop-shadow(-7px 10px 4px var(--shadow-color));
+}
+*/
+
+.theme-dark,
+.theme-light,
+:root {
+   --background-primary: #141414 !important;
+   --background-secondary: #111111 !important;
+   --peopleListItem: #fff !important;
+   --background-secondary-alt: #292929 !important;
+   --background-tertiary: #0c0c0c !important; 
+   --background-accent: #242424 !important;
+   --background-floating: black !important;
+   --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
+   --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
+   --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+   --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
+   --channeltextarea-background: var(--background-accent) !important;
+   --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+   --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+   --deprecated-text-input-bg: var(--deprecated-card-editable-bg) !important;
+   --deprecated-text-input-border: var(--background-floating) !important;
+   --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+   --activity-card-background: var(--background-primary) !important;
+   --channels-default: #9f9f9f !important;
+   --text-muted: #b6b6b6 !important;
+   --text-normal: #fbfbfb !important;
+   --interactive-normal: #c8c8c8 !important;
+   --interactive-hover: var(--highlight-color) !important;
+   --interactive-active: #fff !important;
+   --interactive-muted: #747474 !important;
+   --header-primary: white !important;
+   --header-secondary: #c9c9c9 !important;
+   --toast-background: var(--background-primary) !important;
+   --toast-header: var(--background-tertiary) !important;
+   --toast-contents: var(--background-secondary) !important;
+   --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
+   --toast-border: var(--highlight-color) !important;
+}
