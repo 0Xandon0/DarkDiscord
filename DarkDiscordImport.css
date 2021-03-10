@@ -37,8 +37,9 @@
 }
 
 
-.container-1D34oG, .base-3dtUhz{
-	background-image: url(var(--background-image-url, https://i.imgur.com/1DBt4b2.jpg)) !important;
+
+.container-1D34oG, .base-3dtUhz, .layer-3QrUeG{
+	background-image: var(--background-image, url('https://i.imgur.com/1DBt4b2.jpg')) !important;
 	/**background-image: url('https://i.imgur.com/EhTg7Us.png') !important;**/
 	/* background-image: url('https://i.imgur.com/ISc93NO.jpg') !important; */
 	background-size: cover;
@@ -63,10 +64,6 @@
 }
 .contentRegionScroller-26nc1e{
 	background-color:transparent;
-}
-.layer-3QrUeG{
-	background-image: url(var(--background-image-url)) !important;
-	object-fit: cover;
 }
 
 
@@ -209,8 +206,3 @@
 	outline-color:var(--highlight-color);
 	outline-style:solid;
 }
-/* was shadow for typing thing
-.form-2fGMdU{
-	filter:drop-shadow(-7px 10px 4px var(--shadow-color));
-}
-*/
