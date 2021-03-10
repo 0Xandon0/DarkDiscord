@@ -38,7 +38,7 @@
 
 
 .container-1D34oG, .base-3dtUhz{
-	background-image: url(var(--background-image-url)) !important;
+	background-image: url(var(--background-image-url, https://i.imgur.com/1DBt4b2.jpg)) !important;
 	/**background-image: url('https://i.imgur.com/EhTg7Us.png') !important;**/
 	/* background-image: url('https://i.imgur.com/ISc93NO.jpg') !important; */
 	background-size: cover;
